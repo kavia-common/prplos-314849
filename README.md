@@ -81,6 +81,17 @@ packages to OpenWrt, please find the fitting repository below.
 * [OpenWrt Video](https://github.com/openwrt/video): Packages specifically
   focused on display servers and clients (Xorg and Wayland).
 
+## Kavia Knowledge Graph
+
+A Kavia knowledge graph has been created for this repository. At a high level, it captures relationships between major components, build targets, packages/feeds, and build/tooling entry points across the tree.
+
+This can help maintainers with:
+* **Impact analysis**: identify what areas may be affected by a change (e.g., target selection, toolchain pieces, package metadata).
+* **Dependency tracing**: follow build and packaging relationships to understand why something is pulled in and where it is defined.
+* **Documentation cross-references**: quickly navigate between related subsystems and their supporting docs.
+
+Architecture notes (if present): see `docs/architecture/HLD.md`.
+
 ## Support Information
 
 For a list of supported devices see the [OpenWrt Hardware Database](https://openwrt.org/supported_devices)
